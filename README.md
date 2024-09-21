@@ -20,6 +20,7 @@ The goal of this project is to build a fully functional Chip-8 emulator that:
 This emulator is a **work-in-progress**, and many features are incomplete or experimental. As such:
 - **Do not expect full accuracy** for all opcodes at this stage.
 - **Sound support is not implemented** yet.
+- **Input support is not implemented** yet.
 - The **display functionality is limited** due to the current use of `ncurses`.
 - **Opcode handling and other core components are still under active testing and development**.
 
