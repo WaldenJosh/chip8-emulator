@@ -46,18 +46,9 @@ This emulator is a **work-in-progress**, and many features are incomplete or exp
 - **Add sound support** based on the Chip-8’s sound timer.
 - **Optimize the emulator's performance** for better accuracy and efficiency.
 
-## Contribution
-
-Since this project is in the early stages of development, contributions are not yet being accepted. However, feedback is welcome! Feel free to open issues or submit suggestions.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgments
-
-- **Chip-8 Community**: For the numerous resources and tutorials on Chip-8 emulation.
-- **Python and Open Source Developers**: For making tools like `ncurses` and Python possible, which power this emulator.
 
 ---
 
