@@ -2,7 +2,7 @@
 import os
 import datetime
 
-DEBUG_MODE = True  # Set to False to disable debug logging
+DEBUG_MODE = False  # Set to False to disable debug logging
 
 # Specify the log file path
 log_file_path = os.path.join(os.path.dirname(__file__), "chip8_debug.log")
