@@ -2,7 +2,7 @@
 import os
 import datetime
 
-DEBUG_MODE = False  # Set to False to disable debug logging
+DEBUG_MODE = True  # Set to False to disable debug logging
 
 # Specify the log file path
 log_file_path = os.path.join(os.path.dirname(__file__), "chip8_debug.log")
@@ -34,7 +34,7 @@ def log_debug(message):
                 # If the message has changed and there were repetitions, note it
                 if repetition_count > 0:
                     log_file.write(f"Last message repeated {
-                                repetition_count} times\n")
+                        repetition_count} times\n")
                 # Write the new message
                 log_file.write(f"[{timestamp}] {message}\n")
                 last_log_message = message
