@@ -50,7 +50,7 @@ def main(stdscr):
         status_items["rom"] = "No ROM loaded"
 
     # Timting variables
-    cpu_cycle_duration = 1 / 60  # 500Hz CPU cycle
+    cpu_cycle_duration = 1 / 500  # 500Hz CPU cycle
     screen_refresh_duration = 1 / 60  # 60Hz screen refresh
 
     last_cpu_cycle_time = time.time()
